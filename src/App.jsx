@@ -11,7 +11,7 @@ import {
 
 function App() {
   return (
-    <div className='container mx-auto'>
+    <>
       <Header />
       <About />
       <Services />
@@ -19,7 +19,7 @@ function App() {
       <CTA />
       <Grow />
       <Footer />
-    </div>
+    </>
   );
 }
 
